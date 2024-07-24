@@ -33,15 +33,26 @@ html, body{
     clear: both;
 }
 
+/*-----Navbar elements----->*/
 .navbar a:hover{
     background-color: #ddd;
     color: black;
 }
 
 #language-box{
-    
+    display: flex;
+    background-color: red;
+    height: 150px;
+    width: 1400px;
+    padding: 10px;
+    margin: auto;
+    text-align: left;
 }
 
-@media (max-width: 360px){
 
+
+@media (max-width: 360px){
+    #language-box{
+
+    }
 }
