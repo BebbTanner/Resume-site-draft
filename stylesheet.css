@@ -1,3 +1,15 @@
+/*
+CSS files are read from top to bottom.
+So what ever is at the bottom of the file
+is what the current value will be.
+
+With this information in mind, I will be doing 
+my best to be sure that my media queries are all
+at the bottom of the page.
+*/
+
+
+/*-----Default values-----*/
 html, body{
     height: 100%;
 }
@@ -29,6 +41,6 @@ html, body{
 #main-container{
 }
 
-@media (max-width: 600px){
+@media (max-width: 360px){
 
 }
