@@ -41,15 +41,15 @@ html, body{
 
 #language-box{
     display: flex;
-    background-color: red;
     height: 150px;
     width: 1400px;
-    padding: 10px;
+    padding: 15px;
     margin: auto;
     text-align: left;
+    border-radius: 25px;
+
+    background: conic-gradient(darkturquoise 0deg 90deg, khaki 90deg 270deg, darkturquoise 270deg 360deg)
 }
-
-
 
 @media (max-width: 360px){
     #language-box{
