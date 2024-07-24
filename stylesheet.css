@@ -39,6 +39,12 @@ html, body{
     color: black;
 }
 
+/*-----Portfolio.html-----*/
+
+#portfolio-header{
+    
+}
+
 #language-box{
     display: flex;
     height: 150px;
@@ -50,6 +56,8 @@ html, body{
 
     background: conic-gradient(darkturquoise 0deg 90deg, khaki 90deg 270deg, darkturquoise 270deg 360deg)
 }
+
+/*-----End portfolio-----*/
 
 @media (max-width: 360px){
     #language-box{
