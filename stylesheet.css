@@ -24,13 +24,13 @@ html, body{
 }
 
 #footer{
-    text-align: right;
+    display: flex;
+    text-align: left;
     color: white;
     position: relative;
-    padding-right: 20px;
+    padding-left: 20px;
     height: 100px;
     margin-top: -100px;
-    clear: both;
 }
 
 /*-----Navbar elements----->*/
@@ -38,6 +38,7 @@ html, body{
     background-color: #ddd;
     color: black;
 }
+
 
 /*-----Portfolio.html-----*/
 
