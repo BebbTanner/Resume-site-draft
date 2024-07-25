@@ -61,8 +61,7 @@ html, body{
 
 /*-----End portfolio-----*/
 
-@media (max-width: 360px){
-    #language-box{
-        flex-direction: column;
-    }
+/*This media query width is set to the average size of
+modern smart phones.*/
+@media (min-width: 360px){
 }
