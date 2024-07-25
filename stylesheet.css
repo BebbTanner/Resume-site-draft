@@ -54,13 +54,14 @@ html, body{
     text-align: left;
     border-radius: 25px;
 
-    background: conic-gradient(darkturquoise 0deg 90deg, khaki 90deg 270deg, darkturquoise 270deg 360deg)
+    background: yellow;
+    color: black;
 }
 
 /*-----End portfolio-----*/
 
 @media (max-width: 360px){
     #language-box{
-
+        flex-direction: column;
     }
 }
